@@ -116,3 +116,50 @@ print('free' in TXT)
 txt = 'The best thing in life are free!'
 
 print('expensive' not in txt)
+
+# String Slicing
+b = 'Hello, World'
+print(b[2:5])
+
+A = 'Hello World'
+print(A[-5:-2])
+
+#Modify
+a = "I need to learn python"
+print(a.upper())
+
+b = 'I NEED TO LEARN SQL'
+print(b.lower())
+
+C = '  Welcome to INDIA '
+print(C.strip())
+
+d = 'i need a job in data science'
+print(d.replace('i','I')) 
+
+E = 'Life is tough'
+print(E.split(' '))
+
+# concatenation
+
+a = 'hello'
+b = 'World'
+C = (a+ ' ' +b)
+print(C)
+
+# Format
+
+Age = 23
+txt = f'My name is Aniket, I am {Age}'
+print(txt)
+
+price = 100
+txt = f'Mango is {price} rupess per kg in the Market'
+print(txt)
+
+price = 45
+txt = f'the price is {price:.2f} dollars'
+print(txt)
+
+txt = f'The price is {20*59} dollars'
+print(txt)
