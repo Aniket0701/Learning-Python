@@ -221,3 +221,33 @@ print(a**b)
 a = 100
 b = 10
 print (a>b)
+
+# Practice Program
+a = int(input('Please write first number'))
+b = int(input('Please write Second number'))
+
+Sum = a+b
+print(Sum)
+
+# practice Program
+Sides = float(input('Please mention the side of a square'))
+
+Area = Sides * Sides
+print(Area)
+
+# third practice program
+a = float(input('Please write first number'))
+b = float(input('Please write Second number'))
+
+average = (a+b)/2
+
+print(f'{average} average of Two numbers')
+
+# Fourth program
+a = int(input('Please write first number'))
+b = int(input('Please write Second number'))
+
+if (a >= b):
+    print('True')
+else:
+    print('False')
