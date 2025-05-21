@@ -251,3 +251,12 @@ if (a >= b):
     print('True')
 else:
     print('False')
+
+
+name = input('please write your name')
+
+print(len(name))
+
+quote = 'String'
+
+print(quote.count('$'))
