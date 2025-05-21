@@ -163,3 +163,61 @@ print(txt)
 
 txt = f'The price is {20*59} dollars'
 print(txt)
+
+TXT = 'We are the so-called \n"Vikings" from the north.'
+print(TXT)
+
+name = 'aniket Shukla'
+print(name.capitalize())
+
+a = int(input('Please assign 1 number'))
+b = int(input('please assign 2 number'))
+
+if a>b:
+    print('a is greater than b')
+else:
+    print('b is greater than a')
+
+# Bool 
+print(bool('aniket'))
+print(bool(12))
+
+x = "Hello"
+y = 15
+
+print(bool(x))
+print(bool(y))
+
+class myclass():
+  def __len__(self):
+    return 0
+
+myobj = myclass()
+print(bool(myobj))
+
+def myFunction():
+    return True
+
+if myFunction():
+    print('YES')
+else:
+    print('NO')
+
+x = 200
+print(isinstance(x, int))
+
+# Arithmetic operator
+
+a = 50
+b = 25
+print(a+b)
+print(a-b)
+print(a/b)
+print(a%b)
+print(a*b)
+print(a//b)
+print(a**b)
+
+a = 100
+b = 10
+print (a>b)
