@@ -260,3 +260,107 @@ print(len(name))
 quote = 'String'
 
 print(quote.count('$'))
+
+List1 = [1 , 2 , 2,'Hello', True]
+
+print(type(List1))
+print(List1)
+print(len(List1))
+
+Thislist = list(('apple', 'Banana', 'Grapes'))
+
+print(Thislist)
+
+#Access List Items
+
+List1 = [1 , 2 , 2,'Hello', True]
+
+print(List1[-1])
+
+#Range of Indexes
+
+List2 = ['Apple','Banana','Grapes','Orange','Melon', 'Mango']
+
+print(List2[-3:])
+
+#find in the list
+Basket = ['Apple','Banana','Grapes','Orange','Melon', 'Mango']
+if 'Apple' in Basket:
+    print('Apple is in the Basket')
+else:
+    print('No apple in the Basket')
+
+#changes  in the list
+
+Fruits = ['Apple','Banana','Grapes','Orange','Melon', 'Mango']
+
+Fruits[4] = 'Watermelon'
+print(Fruits)
+
+#changes in the range
+
+Family = ['Aniket','Namrata','Mummy','Sonal']
+Family[1:] = 'Chuku','Mom','sister'
+print(Family)
+
+Basket = ['Apple','Banana','Grapes','Orange','Melon', 'Mango']
+Basket[-2:-1] ='Watermelon' , 'Muskmelon'
+print(Basket)
+
+#insert Items
+
+list = ['Apple', 'Banana' ,'Grapes']
+list.insert(1,'Watermeelon')
+print(list)
+
+#Append
+Garage = ['Yamaha R1', 'BMW S1000RR', 'Porshe 911 GT3 RS', 'BMW M4 Competition']
+Garage.append('Mercedes Maybach')
+print(Garage)
+
+#insert is for specific index
+Garage = ['Yamaha R1', 'BMW S1000RR', 'Porshe 911 GT3 RS', 'BMW M4 Competition']
+Garage.insert(3,'Mercedes Maybach')
+print(Garage)
+
+# Add items from 1 list to another list
+Garage = ['Yamaha R1', 'BMW S1000RR', 'Porshe 911 GT3 RS', 'BMW M4 Competition']
+Showroom = ['Toyota Land Crusier','Mercedes Maybach']
+Garage.extend(Showroom)
+print(Garage)
+
+#Remove items from a list
+Garage = ['Yamaha R1', 'BMW S1000RR', 'Porshe 911 GT3 RS', 'BMW M4 Competition']
+Garage.remove('Yamaha R1')
+print(Garage)
+
+Basket = ['Apple','Banana','Grapes','Orange','Melon', 'Mango', 'Grapes']
+Basket.remove('Grapes')
+print(Basket)
+
+#Remove Specified index
+
+Basket = ['Apple','Banana','Grapes','Orange','Melon', 'Mango']
+Basket.pop(0)
+print(Basket)
+
+#empty function will delete the last item in the list
+Basket = ['Apple','Banana','Grapes','Orange','Melon', 'Mango']
+Basket.pop()
+print(Basket)
+
+#Del function - which also remove from specified index from the list.
+
+Basket = ['Apple','Banana','Grapes','Orange','Melon', 'Mango']
+del Basket[0]
+print(Basket)
+
+Garage = ['Yamaha R1', 'BMW S1000RR', 'Porshe 911 GT3 RS', 'BMW M4 Competition']
+del Garage
+print(Garage)
+
+#clear the list
+
+Garage = ['Yamaha R1', 'BMW S1000RR', 'Porshe 911 GT3 RS', 'BMW M4 Competition']
+Garage.clear()
+print(Garage)
