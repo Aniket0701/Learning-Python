@@ -364,3 +364,58 @@ print(Garage)
 Garage = ['Yamaha R1', 'BMW S1000RR', 'Porshe 911 GT3 RS', 'BMW M4 Competition']
 Garage.clear()
 print(Garage)
+
+# For loop through a list
+Garage = ['Yamaha R1', 'BMW S1000RR', 'Porshe 911 GT3 RS', 'BMW M4 Competition']
+for X in Garage:
+    print(X)
+
+Garage = ['Yamaha R1', 'BMW S1000RR', 'Porshe 911 GT3 RS', 'BMW M4 Competition']
+for i in range(len(Garage)):
+    print(Garage[i])
+
+#While loop
+Garage = ['Yamaha R1', 'BMW S1000RR', 'Porshe 911 GT3 RS', 'BMW M4 Competition']
+i = 0
+while i < len(Garage):
+    print(Garage[i])
+    i = i+1
+
+#Looping using List comprehension
+
+Garage = ['Yamaha R1', 'BMW S1000RR', 'Porshe 911 GT3 RS', 'BMW M4 Competition']
+[print(x) for x in Garage]
+
+## List comprehension
+#1
+Showroom = ['Yamaha R1', 'BMW S1000RR', 'Porshe 911 GT3 RS', 'BMW M4 Competition']
+newlist = []
+for x in Showroom:
+    if 'Y' in x:
+        newlist.append(x)
+print(newlist)
+
+#2
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = [x for x in fruits if "a" in x]
+print(newlist)
+
+#3
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = [x for x in fruits if x != 'apple']
+print(newlist)
+
+#4
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = [x for x in range(10) if x < 5]
+print(newlist)
+
+#5
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = [x.upper() for x in fruits]
+print(newlist)
+
+#6
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = [x if x != 'banana' else 'orange'for x in fruits]
+print(newlist)
