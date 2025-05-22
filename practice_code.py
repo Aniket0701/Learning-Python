@@ -419,3 +419,17 @@ print(newlist)
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 newlist = [x if x != 'banana' else 'orange'for x in fruits]
 print(newlist)
+
+# Sort List
+Showroom = ['Yamaha R1', 'BMW S1000RR', 'Porshe 911 GT3 RS', 'BMW M4 Competition']
+Showroom.sort()
+print(Showroom)
+
+numbers = [12,45,15,60,100]
+numbers.sort()
+print(numbers)
+
+#Sort Desc
+numbers = [12,45,15,60,100]
+numbers.sort(reverse = True)
+print(numbers)
