@@ -433,3 +433,35 @@ print(numbers)
 numbers = [12,45,15,60,100]
 numbers.sort(reverse = True)
 print(numbers)
+
+# Practice questions on conditional statement
+
+# 1. Find the number is odd or even.
+
+number = int(input('Write the number'))
+
+if (number % 2 == 0):
+    print('it\'s an even number')
+else:
+    print('it\'s odd number')
+
+# 2 greatest number
+A = int(input('write the first number'))
+B = int(input('write the second number'))
+C = int(input('write the third number'))
+
+if (A > B and A > C):
+    print('A is greatest number')
+elif (B > A and B > C):
+    print('B is the greatest number')
+else:
+    print('c is the greatest number')
+
+#3 multiple of 7 or not
+
+number = int(input('please write the number'))
+
+if (number % 7 == 0):
+    print('yes this number is a multiple of 7')
+else:
+    print('No this number is not a multiple of 7')
