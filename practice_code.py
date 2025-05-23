@@ -465,3 +465,18 @@ if (number % 7 == 0):
     print('yes this number is a multiple of 7')
 else:
     print('No this number is not a multiple of 7')
+
+#Practice Questions on list
+
+#1. Ask user to enter three fav movies & store them in a list
+
+movies = []
+mov1 = input('Please mention your First fav movie')
+mov2 = input('Please mention your second fav movie')
+mov3 = input('Please mention your Third fav movie')
+
+movies.append(mov1)
+movies.append(mov2)
+movies.append(mov3)
+
+print(movies)
