@@ -480,3 +480,11 @@ movies.append(mov2)
 movies.append(mov3)
 
 print(movies)
+
+# Tuple
+
+Tup1 = (12,'Aniket',25)
+print(type(Tup1))
+
+Tup1 = ('Aniket')
+print(type(Tup1))
