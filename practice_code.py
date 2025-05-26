@@ -488,3 +488,16 @@ print(type(Tup1))
 
 Tup1 = ('Aniket')
 print(type(Tup1))
+
+#Dictonary
+Dict1 = {'Table' : 'A piece of furniture',
+          'Cat' : 'A small Animal' ,
+          'Peacock' : 'National Bird'}
+print(Dict1)
+
+#sets
+set1 = {1,2,34,55}
+print(type(set1))
+
+set2 = {22 , 3 , 34 ,5, 3} # no duplicates
+print(set2)
